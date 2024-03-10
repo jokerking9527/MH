@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     static String NameY = "杨云艳";
-    static String NameW = "吴索普";
+    static String NameW = "小吴";
 
     @GetMapping("/findY")
     public String findNameY(){
