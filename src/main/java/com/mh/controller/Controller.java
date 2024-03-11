@@ -10,6 +10,7 @@ public class Controller {
 
     static String NameY = "杨云艳";
     static String NameW = "小吴";
+    static String NameZ= "小云云";
 
     @GetMapping("/findY")
     public String findNameY(){
@@ -19,5 +20,10 @@ public class Controller {
     @GetMapping("/findW")
     public String findNameW(){
         return NameW;
+    }
+
+    @GetMapping("/findZ")
+    public String findNameZ(){
+        return NameZ;
     }
 }
